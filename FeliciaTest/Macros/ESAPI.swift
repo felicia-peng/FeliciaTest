@@ -60,6 +60,8 @@ enum ESAPI: String {
     
     func url_web_map() -> String {
         return ESAPI.host_map() + self.rawValue
+
+        print("这里是主分支")
     }
 
     case login     = "api/login" //登录接口
