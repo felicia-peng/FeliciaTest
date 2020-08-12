@@ -62,6 +62,10 @@ enum ESAPI: String {
         return ESAPI.host_map() + self.rawValue
     }
 
+    
+    
+    
+    
     case login     = "api/login" //登录接口
     case verificationCode     = "api/verification_code" //获取验证码
     case verificationCode_check = "api/verify_register_verification_code" //验证码校验
