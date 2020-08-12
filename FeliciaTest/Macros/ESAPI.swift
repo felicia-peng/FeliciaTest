@@ -60,9 +60,6 @@ enum ESAPI: String {
     
     func url_web_map() -> String {
         return ESAPI.host_map() + self.rawValue
-
-        print("这里是主分支")
-        print("这里是felicia分支")
     }
     
     
